@@ -563,7 +563,7 @@ Local Storage: ${JSON.stringify(localStorage)}
         }
 
         for (let i = 0; i < document.getElementsByTagName("meta").length; i++) {
-            main.innerHTML += '<li>' + (document.getElementsByTagName("meta")[i].name || document.getElementsByTagName("meta").property) + '</a></li>';
+            main.innerHTML += '<li><a onclick="alert(\'' + document.getElementsByTagName("meta")[i].content + '\');">' + (document.getElementsByTagName("meta")[i].name || document.getElementsByTagName("meta").property) + '</a></li>';
         }
     });
 
