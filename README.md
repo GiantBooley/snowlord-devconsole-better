@@ -1,2 +1,2 @@
 # snowlord-devconsole-better
-by snowlord but by me
+original by snowlord and its a bookmarklet
