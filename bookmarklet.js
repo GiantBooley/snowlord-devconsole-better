@@ -1,1 +1,1 @@
-javascript:(()=>{var x = document.createElement("script"); x.src = "https://github.com"; x.onload = alert("Loaded Developer Console!"); document.head.appendChild(x);})();
+javascript:(()=>{var x = document.createElement("script"); x.src = "https://raw.githubusercontent.com/GiantBooley/snowlord-devconsole-better/main/main.js"; x.onload = document.head.appendChild(x);})();
